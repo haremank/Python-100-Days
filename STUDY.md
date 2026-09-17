@@ -1,9 +1,10 @@
 # 学习入口（`study-week01` 分支）
 
 本仓库是 [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) 的 **fork**。
+**默认分支就是 `study-week01`** —— 打开仓库即学习分支。
 
-- `master` —— 与上游保持一致，**不在这里学习**
-- **`study-week01` —— 学习分支，第一周从这里读**
+- **`study-week01` —— 学习分支（默认）**，第一周从这里读
+- `master` —— 上游原版，**内容完整保留**，需要对照时切过去看
 
 > ⚠️ 本仓库是公开的。上游本身公开，内容层面没有额外暴露，
 > 但本仓库的分支与提交记录会公开可见。
@@ -44,11 +45,10 @@
 
 ## 三、改了什么
 
-全部改动 = 本分支相对上游锁定点的一个提交，**随时可复现**：
+改动全部以本分支的 git 提交承载（共 3 个），**随时可复现**：
 
 ```bash
 git clone https://github.com/haremank/Python-100-Days && cd Python-100-Days
-git checkout study-week01
 git remote add upstream https://github.com/jackfrued/Python-100-Days
 git diff 44b2575bf42a02d0a38d9dada3f60335c95c5ec2 --stat
 ```
@@ -57,7 +57,9 @@ git diff 44b2575bf42a02d0a38d9dada3f60335c95c5ec2 --stat
 
 <https://github.com/haremank/Python-100-Days/compare/44b2575bf42a02d0a38d9dada3f60335c95c5ec2...study-week01>
 
-**实测统计（2026-09-17）**：13 files changed, **+117 / −124 行**，
+### 3.1 教材正文（01–15 章）
+
+**实测（2026-09-17）**：13 files changed, **+117 / −124 行**，
 占上游该范围 3753 行的约 **3.2%** —— 其余 96.8% 与上游逐字相同。
 
 | 改动类别 | 章节 | 为什么 |
@@ -70,6 +72,13 @@ git diff 44b2575bf42a02d0a38d9dada3f60335c95c5ec2 --stat
 | 清理死链 | 11 | `res/day11/eniac.jpg` 上游已 404，移除引用 |
 
 > 07 章与 12 章**与上游完全一致**，没有出现在 diff 里。
+
+### 3.2 本仓库自己新增/改动的文件
+
+| 文件 | 改动 |
+| --- | --- |
+| `README.md` | **只在最前面插了一段说明块**（+19 行），上游原文一字未动 |
+| `STUDY.md` | 本页，学习入口（新增） |
 
 ---
 
