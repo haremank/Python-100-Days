@@ -1,3 +1,22 @@
+> # 📘 你在看的是学习分支 `study-week01`
+>
+> 本仓库是 [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) 的 fork。
+> 这个分支对 `Day01-20/` 的 **01–15 章**做了零基础自学所需的裁剪与修正：
+> **13 个文件、+117 / −124 行**，占该范围 3753 行的 **3.2%**，其余 96.8% 与上游逐字相同。
+>
+> | 想看什么 | 去哪 |
+> | --- | --- |
+> | **改动清单**（可复现的 diff） | [STUDY.md](STUDY.md) · [GitHub 比较视图](https://github.com/haremank/Python-100-Days/compare/44b2575bf42a02d0a38d9dada3f60335c95c5ec2...study-week01) |
+> | **第一周读哪 15 章** | [STUDY.md → 从哪开始](STUDY.md) |
+> | **逐日计划 / 40 道课后题** | 私有课程仓库（不在本仓库） |
+> | **上游原版**（内容完整保留） | [`master` 分支](https://github.com/haremank/Python-100-Days/tree/master) |
+>
+> ⚠️ 上游没有 license 文件：自己学习、跟着敲没问题，**不要**把正文原样搬进自己的项目或对外发布。
+>
+> 以下为上游原文，**未做任何删改**。
+
+---
+
 ## Python - 100天从新手到大师
 
 > **作者**：骆昊
